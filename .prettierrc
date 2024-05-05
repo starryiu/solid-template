@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "prettier-plugin-organize-attributes",
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "attributeGroups": ["^class$", "^(id|name)$", "$DEFAULT", "^aria-"],
+  "organizeImportsSkipDestructiveCodeActions": true,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "ignore",
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false
+}
